@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인페이지</title>
+    <script src="https://kit.fontawesome.com/fe66068d41.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainpage.css">
+
+    <style>
+        a:link:not(.a-community),
+        a:visited:not(.a-community) {
+            color: black;
+        }
+        .a-community {
+            color: #0029BA;
+            padding-bottom: 10px;
+            border-bottom: solid 5px #0029BA;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="wrap_logo">
+            <a href="#"><img src="/img/logo.png" alt=""></a>
+        </div>
+        <div class="wrap_menu">
+            <ul class="menu">
+                <li>
+                    <a href="#" class="a-community">커뮤니티</a></li>
+                <li>
+                    <a href="#" class="a-exchange">환율</a></li>
+                <li class="menu-price">
+                    <a href="#" class="a-price">가격비교</a></li>
+                <li class="menu-customer">
+                    <a href="#" class="a-customer">고객지원</a></li>
+            </ul>
+        </div>
+        <div class="wrap_login-bar">
+            <ul class="login-bar">
+                <li>
+                    <a href="#">로그인</a></li>
+                <li>
+                    <a href="#">회원가입</a></li>
+            </ul>
+        </div>
+        <div class="wrap_search">
+            <input type="text" placeholder="검색어를 입력해 주세요.">
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    <div class="wrap-map">
+        <div class="map">
+            <img src="/img/map.jpg" alt="map-img" style="width:989px;height:589px">
+        </div>    
+        <div class="map-sub">
+            <div class="map-text">
+                <p>선택지역: 아프리카</p>
+                <p>추천 여행지: 이집트</p>
+                <p>고위험군 여행지:</p>
+            </div>
+            <div class="button">
+                <button class="button-map" type="button">아프리카 관련 커뮤니티 가기</button>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-infotorate">
+        <div class="wrap-myinfo">
+            <h2>내 정보</h2>
+            <div class="container-myinfo">
+                <div class="myinfo">
+                    <img class="my-img" src="/img/myinfo.jpg" style="width:86px;height:86px;">
+                </div>
+                <div class="name">
+                    <p>홍길동</p>
+                    <p>user1@gmail.com</p>
+                    <p>자유로운 여행가</p>
+                    <div>
+                        <button class="button-my" type="button">회원정보 수정</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="intnation">
+                <h2>관심국가</h2>
+                <div class="nation">
+                    <img class="nation-img" src="/img/germany.jpg" alt="germany">
+                    <a href="#">독일</a>
+                </div>
+                <div class="nation">
+                    <img class="nation-img" src="/img/spain.jpg">
+                    <a href="#">스페인</a>
+                </div>
+                <div class="nation">
+                    <img class="nation-img" src="/img/turkey.jpg">
+                    <a href="#">튀르키예</a>
+                </div>
+            </div>    
+        </div>
+        <div class="wrap-hot">
+            <div class="hot">
+                <h2>HOT 게시물</h2>
+                <div class="collum">
+                    <h3>HOT 제목 1</h3>
+
+                </div>
+            </div>
+        </div>
+        <div class="wrap-monrate">
+            <div class="monrate">
+                <h2>오늘 환율</h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 LIKELION 3팀. ALL rights reserved.</p>
+    </footer>
+</body>
+</html>

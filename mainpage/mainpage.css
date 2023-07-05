@@ -1,0 +1,246 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.wrap-map {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.map {
+   width: 989px;
+   height: 589px;
+   margin-left: 50px;
+}
+
+.map-sub {
+    background-color: rgb(245, 245, 245);
+    width: 348px;
+    height: 409px;
+    margin: 20px;
+    border-radius: 5%;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.map-text {
+    padding: 10px;
+}
+
+.button-map {
+    background-color: rgb(230, 230, 230);
+    border: none;
+    width: 270px;
+    height: 42px;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+.button {
+    text-align: center;
+    padding-top: 170px;
+}
+
+.wrap-infotorate {
+    margin: 20px 20px 20px 50px;
+    display: flex;
+}
+
+.wrap-myinfo {
+    width: 400px;
+}
+
+.container-myinfo {
+    font-size: 15px;
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.button-my {
+    background-color: rgb(0, 41, 186);
+    color: white;
+    border-radius: 5%;
+    border: none;
+    width: 105px;
+    height: 33px;
+}
+
+.nation {
+    margin:20px;
+    display: flex;
+    align-items: center;
+}
+
+.nation-img {
+    padding-right: 20px;
+}
+
+.my-img {
+    padding-right: 30px;
+}
+
+/* 핫 게시물 */
+.wrap-hot {
+    margin: 20px;
+    border-left: thick solid #393939;
+    width: 650px;
+}
+
+.hot {
+    margin: 20px;
+}
+
+/* 오늘 환율 */
+
+.wrap-monrate {
+    margin:20px;
+    border-left: thick solid #393939;
+}
+
+.monrate {
+    margin:20px;
+}
+
+/* nav */
+nav {
+    position: relative;
+    width: 1513px;
+    height: 187px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: solid 0.5px #C0C0C0;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+
+/* logo */
+
+.wrap_logo {
+    position: absolute;
+    overflow: hidden;
+    width: 127px;
+    height: 110px;
+    margin-left: 77px;
+    margin-top: 40px;
+}
+
+.wrap_logo img {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* menu */
+
+.wrap_menu {
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 140px;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+ul.menu>li {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 114px;
+    cursor: pointer;
+}
+
+
+/* login */
+
+.wrap_login-bar {
+    position: absolute;
+    margin-left: 1377px;
+    margin-top: 148px;
+}
+
+.login-bar {
+    list-style: none;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+ul.login-bar>li {
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 8px;
+    padding: 4px;
+    cursor: pointer;
+    border: solid 1px white;
+}
+
+ul.login-bar>li:hover {
+    border: solid 1px #F9F9F9F9;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/* search */
+
+.wrap_search {
+    position: relative;
+    margin-left: 453px;
+    margin-top: 40px;
+    width: 607px;
+    height: 58px;
+}
+
+.wrap_search input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 37px;
+    font-size: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: none;
+}
+
+.wrap_search input:focus {
+    outline: none;
+}
+
+.wrap_search input::placeholder {
+    color: #B3B3B3;
+}
+
+.wrap_search i {
+    position: absolute;
+    font-size: 30px;
+    color: #0029BA;
+    margin-left: 555px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+
+/********** footer **********/
+
+footer {
+    width: 1513px;
+    height: 163px;
+    background-color: #393939;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+}
+
